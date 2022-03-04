@@ -433,7 +433,7 @@ ul{
     .banner{
         display: flex;
         flex-direction: column-reverse;
-        align-items: center;
+        align-items: centerr;
     }
 
   
