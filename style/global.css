@@ -14,8 +14,7 @@ body{
     display: flex;    
     justify-content: space-between;
     align-items: center;
-    padding: 1% 5% 
-    
+    padding: 6px 5px;    
     
 }
 
@@ -36,6 +35,7 @@ ul{
     font-weight: 700;
     
 }
+    
 
 .banner h1{
     color: #FF4081;
@@ -48,9 +48,11 @@ ul{
 .banner p{
     color: #555555;
     font-weight: 400;
-    padding: 10px;
+    padding: 10px 0;
     font-size: 25px;
 }
+
+
 
 #saber-mais{
     text-decoration: none;
@@ -65,7 +67,7 @@ ul{
 .banner{
     display: flex;
     justify-content: space-around;
-    margin: 90px 140px;
+    margin: 5% 10%;
 }
 
 #content-banner{
@@ -77,6 +79,7 @@ ul{
     text-align: center;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 60px;
     
 
@@ -118,10 +121,9 @@ ul{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    flex-direction: column;
-    height: 300px;
-    margin: 50px;
+    flex-direction: row;
     align-content: space-around;
+    margin-bottom: 50px;
 }
  h2{
     color: #009688;
@@ -161,11 +163,11 @@ ul{
     display: flex;
     justify-content: space-around;
     margin-bottom: 40px;
-    
+    flex-wrap: wrap;
 }
 
 .conteudo{
-    width: 290px;
+    width: 340px;
 }
 
 #container-footer{
@@ -174,6 +176,7 @@ ul{
     justify-content: space-around;
     align-items: center;
     height: 150px;
+    max-width: 100%;
 }
 
 .item-menu-footer a{
@@ -419,4 +422,20 @@ ul{
     color:#fff;
     border: none;
     font-weight: 900;
+}
+
+@media screen and (max-width: 800px){
+    #img-banner{
+        display: none;
+    }
+
+
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+  
+
 }
