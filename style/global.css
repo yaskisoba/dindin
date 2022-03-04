@@ -523,9 +523,25 @@ ul{
     }
 
     .container-comentario{
-            font-size: 12px;
-            text-align: justify;
-            align-items: center;
+        font-size: 12px;
+        text-align: justify;
+        display: inline;
+        padding-bottom: 10px;
+
+    }
+
+    .container-cursos h2{
+        font-size: 35px;
+        margin: 10px 20px;
+    }
+
+    .mais-conteudo{
+        padding-top: 20px;
+    }
+
+    .mais-conteudo h2{   
+        margin: 0 20px;
+        margin-bottom: 20px;
     }
 
     #img-footer{
