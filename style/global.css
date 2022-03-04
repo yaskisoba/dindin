@@ -345,8 +345,9 @@ ul{
 
 .banner-curso{
     display: flex;
-    margin: 55px 300px;
-    align-items: center;
+    justify-content: space-around;
+    margin: 4%;
+    
 }
 
 #texto-curso h1{
@@ -356,7 +357,12 @@ ul{
 }
 
 #texto-curso{
-    gap: 20px;
+    width: 55%;
+
+}
+
+#img-curso{
+    width: 40%;
 }
 
 .banner-curso p{
@@ -422,6 +428,7 @@ ul{
     color:#fff;
     border: none;
     font-weight: 900;
+
 }
 
 @media screen and (max-width: 800px){
@@ -434,6 +441,57 @@ ul{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+    }
+
+    .item-curso{
+        padding: 2px;
+    }
+
+    .item-curso p{
+        font-size: 13px;
+    }
+
+    .item-curso-img{
+        display: none;
+    }
+
+    .lista-cursos{
+        margin: 40px;
+    }
+
+    #img-curso{
+        display: none;
+    }
+
+    .aula{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+
+    }
+
+    .aula-img{
+        display: none;
+    }
+
+    #texto-curso{
+        width: auto;
+
+    }
+
+    #texto-curso h1{
+        font-size: 30px;
+    }
+
+    #img-form{
+        display: none;
+    }
+
+    form{
+        margin: 4%;
+    }
+
+    #botao input{
+        padding: 8px;
     }
 }
 
@@ -466,13 +524,36 @@ ul{
 
     .container-comentario{
             font-size: 12px;
-             text-align: justify;
-                 align-items: center;
+            text-align: justify;
+            align-items: center;
     }
 
     #img-footer{
         display: none;
     }
 
+    .aulas-curso{
+        padding: 0;
+    }
+
+    .img-post{
+        display:none;
+    }
+
+    #img-banner-blog{
+        display: none;
+    }
+
+    .banner-blog{
+        margin: 4%;
+    }
+
+    #img-postagem{
+        display: none;
+    }
+
+    .postagem{
+        margin: 5%;
+    }
 
 }
