@@ -435,7 +435,44 @@ ul{
         flex-direction: column-reverse;
         align-items: center;
     }
+}
 
-  
+@media screen and (max-width: 510px){
+
+    .container-logo{
+        flex-direction: column;
+    }
+
+    .menu-item-link{
+        font-size: 12px;
+    }
+
+    #content-banner{
+        width: auto;
+    }
+
+    .banner h1{
+        font-size: 35px;
+    }
+
+    .banner p{
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .comentarios{
+        flex-direction: column;
+    }
+
+    .container-comentario{
+            font-size: 12px;
+             text-align: justify;
+                 align-items: center;
+    }
+
+    #img-footer{
+        display: none;
+    }
+
 
 }
