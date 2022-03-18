@@ -1,8 +1,8 @@
 # DINDIN
-A proposta feita para o primeiro hands on da Gama Academy foi construir um site para uma empresa que oferece cursos sobre o mundo financeiro.
+A proposta feita para o primeiro hands on da Gama Academy foi construir um site para uma empresa que oferece cursos sobre o mundo financeiro. 
 
 <h4 align="center"> 
-	🚀 FINALIZADO
+	🚀 FINALIZADO, ACESSE O PROJETO <a href="https://yaskisoba.github.io/dindin/">AQUI</a>!
 </h4>
 
 ### Pré-requisitos
